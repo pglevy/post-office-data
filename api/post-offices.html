@@ -8,7 +8,7 @@ permalink: /api/post-offices.json
     {
       "name": "{{ office.NAME }}",
       "address": "{{ office.ADDRESS }}",
-      "city": "{{ office.CITY }}",
+      "city": "{{ office.CITY }}"
     }
     {% unless forloop.last %},{% endunless %}
   {% endfor %}
